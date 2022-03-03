@@ -103,6 +103,10 @@ app_license = "MIT"
 #	}
 # }
 
+doctype_js = {
+	"Item" : "kt/doctype/item/item.js"
+}
+
 # Scheduled Tasks
 # ---------------
 
