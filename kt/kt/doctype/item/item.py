@@ -3,7 +3,7 @@ import frappe
 def generate_barcode(item_code):
 	item_code = frappe.form_dict.get('item_code')
 	i = frappe.get_doc('Item',item_code)
-	frappe.msgprint("item code is " +item_code);
+	#frappe.msgprint("item code is " +item_code);
 
 	i.append('barcodes',{
     	'barcode' : item_code

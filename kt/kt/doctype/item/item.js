@@ -16,6 +16,7 @@ frappe.ui.form.on('Item', {
               async:false,
               
               callback:function(r){
+              	frm.reload_doc()
                   console.log(r);
               }
       })
