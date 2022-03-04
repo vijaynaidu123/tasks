@@ -1,6 +1,6 @@
 frappe.ui.form.on('Item', {
 	refresh: function(frm) {
-	//refresh(frm) {
+	
 		console.log("text")
 		// your code here
 	
